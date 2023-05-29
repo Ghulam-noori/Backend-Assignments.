@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+
+}
+p{
+    width: 80%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.btn{
+    width: 180px;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+#main-text{
+    width: 100%;
+
+    word-wrap: break-word;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 20px 20px 20px;
+   
+    
+}
+#date-stamps{
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+.navbar{
+    background-color:lightgrey;
+padding: 20px;
+}
+.message-field{
+    width: 95%;
+}
+
+
